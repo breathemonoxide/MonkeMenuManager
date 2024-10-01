@@ -43,13 +43,13 @@
             label2 = new Label();
             flowLayoutPanel2 = new FlowLayoutPanel();
             button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
             button12 = new Button();
             button13 = new Button();
-            button14 = new Button();
             button15 = new Button();
+            button14 = new Button();
             button16 = new Button();
+            button10 = new Button();
+            button11 = new Button();
             label3 = new Label();
             button17 = new Button();
             flowLayoutPanel1.SuspendLayout();
@@ -92,8 +92,8 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AutoScroll = true;
-            flowLayoutPanel1.Controls.Add(button2);
             flowLayoutPanel1.Controls.Add(button3);
+            flowLayoutPanel1.Controls.Add(button2);
             flowLayoutPanel1.Controls.Add(button4);
             flowLayoutPanel1.Controls.Add(button5);
             flowLayoutPanel1.Controls.Add(button6);
@@ -111,7 +111,7 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(3, 3);
+            button2.Location = new Point(3, 69);
             button2.Name = "button2";
             button2.Size = new Size(336, 60);
             button2.TabIndex = 0;
@@ -126,11 +126,11 @@
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(3, 69);
+            button3.Location = new Point(3, 3);
             button3.Name = "button3";
             button3.Size = new Size(336, 60);
             button3.TabIndex = 1;
-            button3.Text = "ShibaGT Genesis (crack)";
+            button3.Text = "ShibaGT Genesis";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
@@ -145,7 +145,7 @@
             button4.Name = "button4";
             button4.Size = new Size(336, 60);
             button4.TabIndex = 2;
-            button4.Text = "Displyy (crack)";
+            button4.Text = "Displyy";
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
@@ -160,7 +160,7 @@
             button5.Name = "button5";
             button5.Size = new Size(336, 60);
             button5.TabIndex = 3;
-            button5.Text = "Rexon Paid (crack)";
+            button5.Text = "Rexon Paid";
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
@@ -222,14 +222,14 @@
             // flowLayoutPanel2
             // 
             flowLayoutPanel2.AutoScroll = true;
-            flowLayoutPanel2.Controls.Add(button9);
-            flowLayoutPanel2.Controls.Add(button10);
-            flowLayoutPanel2.Controls.Add(button11);
             flowLayoutPanel2.Controls.Add(button12);
+            flowLayoutPanel2.Controls.Add(button11);
+            flowLayoutPanel2.Controls.Add(button9);
             flowLayoutPanel2.Controls.Add(button13);
-            flowLayoutPanel2.Controls.Add(button14);
             flowLayoutPanel2.Controls.Add(button15);
+            flowLayoutPanel2.Controls.Add(button14);
             flowLayoutPanel2.Controls.Add(button16);
+            flowLayoutPanel2.Controls.Add(button10);
             flowLayoutPanel2.Location = new Point(391, 80);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Size = new Size(164, 282);
@@ -242,43 +242,13 @@
             button9.FlatAppearance.BorderSize = 0;
             button9.FlatStyle = FlatStyle.Flat;
             button9.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.Location = new Point(3, 3);
+            button9.Location = new Point(3, 135);
             button9.Name = "button9";
             button9.Size = new Size(134, 60);
             button9.TabIndex = 7;
             button9.Text = "PlayerTrakkar";
             button9.UseVisualStyleBackColor = false;
             button9.Click += button9_Click;
-            // 
-            // button10
-            // 
-            button10.BackColor = Color.DimGray;
-            button10.FlatAppearance.BorderColor = Color.DimGray;
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button10.Location = new Point(3, 69);
-            button10.Name = "button10";
-            button10.Size = new Size(134, 60);
-            button10.TabIndex = 8;
-            button10.Text = "Modded Utilla";
-            button10.UseVisualStyleBackColor = false;
-            button10.Click += button10_Click;
-            // 
-            // button11
-            // 
-            button11.BackColor = Color.DimGray;
-            button11.FlatAppearance.BorderColor = Color.DimGray;
-            button11.FlatAppearance.BorderSize = 0;
-            button11.FlatStyle = FlatStyle.Flat;
-            button11.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button11.Location = new Point(3, 135);
-            button11.Name = "button11";
-            button11.Size = new Size(134, 60);
-            button11.TabIndex = 9;
-            button11.Text = "WalkSim publics";
-            button11.UseVisualStyleBackColor = false;
-            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -287,7 +257,7 @@
             button12.FlatAppearance.BorderSize = 0;
             button12.FlatStyle = FlatStyle.Flat;
             button12.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button12.Location = new Point(3, 201);
+            button12.Location = new Point(3, 3);
             button12.Name = "button12";
             button12.Size = new Size(134, 60);
             button12.TabIndex = 10;
@@ -302,13 +272,28 @@
             button13.FlatAppearance.BorderSize = 0;
             button13.FlatStyle = FlatStyle.Flat;
             button13.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button13.Location = new Point(3, 267);
+            button13.Location = new Point(3, 201);
             button13.Name = "button13";
             button13.Size = new Size(134, 60);
             button13.TabIndex = 11;
             button13.Text = "nametags";
             button13.UseVisualStyleBackColor = false;
             button13.Click += button13_Click;
+            // 
+            // button15
+            // 
+            button15.BackColor = Color.DimGray;
+            button15.FlatAppearance.BorderColor = Color.DimGray;
+            button15.FlatAppearance.BorderSize = 0;
+            button15.FlatStyle = FlatStyle.Flat;
+            button15.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button15.Location = new Point(3, 267);
+            button15.Name = "button15";
+            button15.Size = new Size(134, 60);
+            button15.TabIndex = 13;
+            button15.Text = "LobbyCrash";
+            button15.UseVisualStyleBackColor = false;
+            button15.Click += button15_Click;
             // 
             // button14
             // 
@@ -325,21 +310,6 @@
             button14.UseVisualStyleBackColor = false;
             button14.Click += button14_Click;
             // 
-            // button15
-            // 
-            button15.BackColor = Color.DimGray;
-            button15.FlatAppearance.BorderColor = Color.DimGray;
-            button15.FlatAppearance.BorderSize = 0;
-            button15.FlatStyle = FlatStyle.Flat;
-            button15.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button15.Location = new Point(3, 399);
-            button15.Name = "button15";
-            button15.Size = new Size(134, 60);
-            button15.TabIndex = 13;
-            button15.Text = "LobbyCrash";
-            button15.UseVisualStyleBackColor = false;
-            button15.Click += button15_Click;
-            // 
             // button16
             // 
             button16.BackColor = Color.DimGray;
@@ -347,13 +317,43 @@
             button16.FlatAppearance.BorderSize = 0;
             button16.FlatStyle = FlatStyle.Flat;
             button16.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button16.Location = new Point(3, 465);
+            button16.Location = new Point(3, 399);
             button16.Name = "button16";
             button16.Size = new Size(134, 60);
             button16.TabIndex = 14;
             button16.Text = "BannedUtilla";
             button16.UseVisualStyleBackColor = false;
             button16.Click += button16_Click;
+            // 
+            // button10
+            // 
+            button10.BackColor = Color.DimGray;
+            button10.FlatAppearance.BorderColor = Color.DimGray;
+            button10.FlatAppearance.BorderSize = 0;
+            button10.FlatStyle = FlatStyle.Flat;
+            button10.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button10.Location = new Point(3, 465);
+            button10.Name = "button10";
+            button10.Size = new Size(134, 60);
+            button10.TabIndex = 8;
+            button10.Text = "Modded Utilla";
+            button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
+            // 
+            // button11
+            // 
+            button11.BackColor = Color.DimGray;
+            button11.FlatAppearance.BorderColor = Color.DimGray;
+            button11.FlatAppearance.BorderSize = 0;
+            button11.FlatStyle = FlatStyle.Flat;
+            button11.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button11.Location = new Point(3, 69);
+            button11.Name = "button11";
+            button11.Size = new Size(134, 60);
+            button11.TabIndex = 9;
+            button11.Text = "WalkSim publics";
+            button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // label3
             // 

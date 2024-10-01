@@ -1,6 +1,6 @@
 using System.Net;
 using System.Diagnostics;
-using System.IO;
+
 
 namespace MonkeMenuManager
 {
@@ -46,9 +46,11 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
-
+                    MessageBox.Show("Failed to download!");
 
                 }
+                MessageBox.Show("Download Complete!");
+
             }
         }
 
@@ -78,8 +80,9 @@ namespace MonkeMenuManager
                 catch (Exception ex)
                 {
 
-
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -108,8 +111,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
-
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -138,8 +142,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
-
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -168,7 +173,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -197,7 +204,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -226,7 +235,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -255,7 +266,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -284,7 +297,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -313,7 +328,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -342,7 +359,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -371,7 +390,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -400,7 +421,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -429,7 +452,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
@@ -459,7 +484,9 @@ namespace MonkeMenuManager
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Failed to download!");
                 }
+                MessageBox.Show("Download Complete!");
             }
         }
 
